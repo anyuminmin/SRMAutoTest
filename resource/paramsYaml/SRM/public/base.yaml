@@ -1,0 +1,41 @@
+#　请求头参数
+HEADERS: {"Content-Type": "application/json;charset=UTF-8","X-PH-TOKEN":token}
+
+#登录相关参数
+SRM_BUYER_LOGIN: {"accountNo": loginName, "password": des_ecb_encrypt(password), "captchaCode": "", "macAddress": "",
+            "routeMac": "", "channelFlag": 7, "loginType": 1, "externalType": ""}
+SRM_BUYER_CHOOSE_SHOP: {"securityToken": securityToken, "loginName": loginName, "password": password,
+                        "shopId": shopId, "macAddress": "", "routeMac": ""}
+SRM_SUPPLIER_LOGIN: {"accountNo": loginName, "password": des_ecb_encrypt(password), "captchaCode": "", "macAddress": "",
+                     "routeMac": "", "channelFlag": 7, "loginType": 1, "externalType": ""}
+SRM_SUPPLIER_CHOOSE_SHOP: {"securityToken": securityToken, "loginName": loginName, "password": password,
+                           "shopId": shopId, "macAddress": "", "routeMac": ""}
+QUERY_SCM_PERSON: {"phoneNo": phoneNo}
+QUERY_SHOP_BY_TOKEN: {}
+QUERY_USER_PERMISSION_BY_DEPT: {"id": deptId}
+
+# 获取编码
+GET_GENERATE_CODE: {"ruleCode": ruleCode}
+
+# 获取部门
+QUERY_DEPT_AND_PERSON: {}
+
+# 通讯录管理：获取人员角色等信息
+SHOP_COM_DEPTOATXL_QUERY_PERSONLIST: {"personName":"1313","pageNum":1,"pageSize":10}
+
+# 角色：
+SHOP_COM_SYSROLE_QUERY_ROLE: {"pageNum":1,"pageSize":20,"roleCode":"admin","roleName":"系统测试管理"}
+SHOP_COM_SYSROLE_QUERY_MULTIROLE_BYUSE: {"id":"796495163159101440","roleCode":"Admin_test","roleName":"系统测试管理"}
+SHOP_COM_SYSROLE_UPDATE: {"id":"796495163159101440","roleCode":"Admin_test","roleName":"系统测试管理","productType":productType,"list":list}
+
+# 系统配置
+SHOP_COM_SYSFACTORY_QUERYSYS: {}
+SHOP_COM_SYSFACTORY_UPDATESYS: {"list":list}
+
+#扩展字段
+QUERY_EXTEND_PAGE_TABLE: {"pageSize":500,"pageNum":1,"moduleName":"","functionName":""}
+EXTEND_UPDATE_STATUS: {"id":"1","status":0}
+
+#公司业务规则
+QUERY_FACTORY_RULE: {}
+UPDATE_FACTORY_RULE: data

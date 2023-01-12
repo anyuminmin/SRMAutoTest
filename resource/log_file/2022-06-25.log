@@ -1,0 +1,219 @@
+2022-06-25 08:38:19,517 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:54,326 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:54,681 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:55,003 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:39:55,294 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:55,512 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:55,756 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:56,009 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:56,347 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:56,555 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:56,843 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:57,036 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:57,389 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:57,686 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:57,877 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:58,183 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:39:58,464 - {'status': 0, 'messages': [], 'data': {'id': '990174278514147328', 'addressCode': 'autoTest-sTa', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府update', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-25 08:39:05', 'gmtModified': '2022-06-25 08:39:08', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-25 08:39:58,470 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:58,678 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:39:58,991 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:59,309 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:39:59,547 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:39:59,765 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:00,004 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:00,330 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:00,546 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:40:00,818 - {'messages': [{'code': '20011102', 'kind': 'ERROR', 'message': '地址编码格式不正确'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:40:00,818 - 用例执行失败
+2022-06-25 08:40:00,829 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:40:01,132 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:01,880 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:02,159 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:02,465 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:02,670 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:40:02,862 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:40:02,862 - 用例执行失败
+2022-06-25 08:40:02,867 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:40:03,081 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:03,430 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:03,710 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:03,928 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:40:04,219 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:40:04,505 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:40:04,505 - 用例执行失败
+2022-06-25 08:40:04,515 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:40:04,709 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:36,196 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:36,691 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:37,108 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:37,459 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:37,921 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:38,222 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:38,553 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:38,859 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:39,208 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:39,571 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:39,890 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:40,192 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:40,518 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:43:40,876 - {'status': 0, 'messages': [], 'data': {'id': '990174297539510272', 'addressCode': 'autoTest-JVf', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府update', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-25 08:39:09', 'gmtModified': '2022-06-25 08:42:50', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-25 08:43:40,907 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:41,256 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:43:44,707 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:43:47,567 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:00,830 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:01,110 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:44:01,413 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:01,760 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:02,164 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:02,566 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:44:02,801 - {'messages': [{'code': '20011102', 'kind': 'ERROR', 'message': '地址编码格式不正确'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:44:02,801 - 用例执行失败
+2022-06-25 08:44:02,880 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:44:31,872 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:33,091 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:33,416 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:33,782 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:44:34,248 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:44:34,534 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:44:34,535 - 用例执行失败
+2022-06-25 08:44:34,611 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:46:25,887 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:49:27,324 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:49:38,914 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:49:41,687 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:49:44,290 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:49:46,428 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:49:49,609 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:49:55,416 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:12,072 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:12,620 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:12,975 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:13,368 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:13,675 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:52:14,006 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:52:14,007 - 用例执行失败
+2022-06-25 08:52:14,068 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:52:29,171 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:46,523 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:46,967 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:47,348 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:47,683 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:48,136 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:48,490 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:48,908 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:49,295 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:49,625 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:50,065 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:52:50,368 - {'status': 0, 'messages': [], 'data': {'id': '990177529280102400', 'addressCode': 'autoTest-xvQ', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-25 08:52:00', 'gmtModified': '2022-06-25 08:52:00', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-25 08:52:50,452 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:50,841 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:52:51,165 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:51,566 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:52:51,909 - {'messages': [{'code': '20011101', 'kind': 'ERROR', 'message': '地址编码234已存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:52:52,077 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:52:52,306 - {'messages': [{'code': '20011105', 'kind': 'ERROR', 'message': '地址编码必填'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:52:52,490 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:52:52,701 - {'messages': [{'code': '10003', 'kind': 'ERROR', 'message': '地址名称不能为空'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:52:52,811 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:52:53,127 - {'status': 0, 'messages': [], 'data': {'id': '990177540986404864', 'addressCode': 'autoTest-xvQ', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府', 'remark': '', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-25 08:52:02', 'gmtModified': '2022-06-25 08:52:02', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-25 08:52:53,197 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:52:53,552 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:52:53,989 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:57,586 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:57,988 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:58,306 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:58,601 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:58,921 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:59,211 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:59,518 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:58:59,844 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:00,139 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:00,468 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:00,753 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:01,072 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:59:01,359 - {'status': 0, 'messages': [], 'data': {'id': '990175310778499072', 'addressCode': 'autoTest-X2U', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府update', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-25 08:43:11', 'gmtModified': '2022-06-25 08:58:11', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-25 08:59:01,369 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:01,670 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:59:01,978 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:02,291 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:02,505 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-25 08:59:02,795 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:03,109 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:03,410 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:59:03,715 - {'messages': [{'code': '20011102', 'kind': 'ERROR', 'message': '地址编码格式不正确'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:59:03,716 - 用例执行失败
+2022-06-25 08:59:03,722 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:59:04,024 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:04,340 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:04,640 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:04,964 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:59:05,254 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:59:05,254 - 用例执行失败
+2022-06-25 08:59:05,258 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:59:05,596 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:05,878 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:06,189 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 08:59:06,412 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-25 08:59:06,686 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-25 08:59:06,687 - 用例执行失败
+2022-06-25 08:59:06,698 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-25 08:59:07,010 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-25 16:01:27,628 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 16:01:42,390 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 16:02:37,096 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 16:25:12,031 - url https://srm-test.chinaboilers.com/api/api/srm/sourcing/template/fuzzyPage
+2022-06-25 16:27:27,773 - url https://srm-test.chinaboilers.com/api/api/srm/sourcing/template/fuzzyPage
+2022-06-25 16:29:04,986 - url https://srm-test.chinaboilers.com/api/api/srm/sourcing/template/fuzzyPage
+2022-06-25 16:29:56,688 - url https://srm-test.chinaboilers.com/api/srm/sourcing/template/fuzzyPage
+2022-06-25 16:31:19,105 - url https://srm-test.chinaboilers.com/api/srm/sourcing/template/fuzzyPage
+2022-06-25 16:46:44,599 - url https://srm-test.chinaboilers.com/api:/share/primary/share/currency/getCurrencyByPage
+2022-06-25 16:50:10,496 - url https://srm-test.chinaboilers.com/api:/share/primary/share/currency/getCurrencyByPage
+2022-06-25 16:50:37,760 - url https://srm-test.chinaboilers.com/api/share/primary/share/currency/getCurrencyByPage
+2022-06-25 17:45:20,174 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 17:45:20,487 - url https://srm-test.chinaboilers.com/api/share/primary/share/currency/getCurrencyByPage
+2022-06-25 17:45:20,693 - url https://srm-test.chinaboilers.com/api/share/primary/share/paymentType/fuzzyPaymentType
+2022-06-25 17:45:20,771 - url https://srm-test.chinaboilers.com/api/srm/sourcing/template/fuzzyPage
+2022-06-25 18:07:55,292 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 18:07:55,417 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:07:55,574 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:07:55,645 - url https://srm-test.chinaboilers.com/api/share/primary/share/currency/getCurrencyByPage
+2022-06-25 18:14:55,787 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 18:14:55,881 - 寻源大厅编码:XY20220625001622
+2022-06-25 18:14:55,897 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:14:56,022 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:14:56,100 - url https://srm-test.chinaboilers.com/api/share/primary/share/currency/getCurrencyByPage
+2022-06-25 18:17:40,719 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 18:17:40,829 - 寻源大厅编码:XY20220625001623
+2022-06-25 18:17:40,844 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:17:40,969 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:17:41,074 - url https://srm-test.chinaboilers.com/api/share/primary/share/paymentTerm/fuzzyPaymentTerm
+2022-06-25 18:19:09,010 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 18:19:09,119 - 寻源大厅编码:XY20220625001624
+2022-06-25 18:19:09,135 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:19:09,260 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:19:09,338 - url https://srm-test.chinaboilers.com/api/share/primary/share/paymentTerm/fuzzyPaymentTerm
+2022-06-25 18:19:09,401 - 付款条件:{'id': '862426189280608258', 'termCode': 'test01', 'termName': 'ceshi 解决', 'defaultType': 1, 'status': 1, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2021-07-07 20:13:47', 'gmtModified': '2021-07-07 20:13:47', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457', 'list': [{'id': '862426190538899456', 'parentId': '862426189280608258', 'termDetailCode': 'detail003', 'termDetailName': '名称001', 'invoiceRequire': 0, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2021-07-07 20:13:47', 'gmtModified': '2021-07-07 20:13:47', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457', 'paymentRatio': 1.0, 'advancePayment': 1, 'startDateType': 2, 'months': 0, 'days': 0, 'accountDate': 0, 'expireSpec': ''}, {'id': '862426190538899457', 'parentId': '862426189280608258', 'termDetailCode': 'detail004', 'termDetailName': '名称001', 'invoiceRequire': 0, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2021-07-07 20:13:47', 'gmtModified': '2021-07-07 20:13:47', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457', 'paymentRatio': 0.0, 'advancePayment': 0, 'startDateType': 2, 'months': 0, 'days': 0, 'accountDate': 0, 'expireSpec': ''}]}
+2022-06-25 18:19:09,401 - url https://srm-test.chinaboilers.com/api/share/primary/share/paymentType/fuzzyPaymentType
+2022-06-25 18:19:09,478 - 结算方式:{'paymentTypeDoList': None, 'accountCombine': 0, 'combineRate': None, 'remark': '', 'id': '948179232592265216', 'payTypeCode': 'BL', 'payTypeName': '保理', 'defaultType': 0, 'status': 1, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2022-03-01 11:25:45', 'gmtModified': '2022-03-01 11:25:45', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}
+2022-06-25 18:19:09,478 - url https://srm-test.chinaboilers.com/api/srm/sourcing/template/fuzzyPage
+2022-06-25 18:19:09,541 - 寻源模板:{'auctionRule': 1, 'autoDefer': 0, 'avlRestrict': 0, 'bargainOffline': 0, 'bargainRule': 1, 'businessId': '539223256875155456', 'creatorId': '852473181966573568', 'creatorName': '安雨敏', 'deptId': '0', 'enableState': 1, 'expertScoreType': 1, 'expertSource': 1, 'firstTrial': 1, 'freightControl': 3, 'gmtCreate': '2021-09-07 09:55:30', 'gmtModified': '2021-11-11 11:14:19', 'id': '50', 'lastModifierId': '852473181966573568', 'openRule': 1, 'qualificationType': 1, 'rankRule': 1, 'roundQuotationRule': 1, 'shopId': '539223256875155457', 'sourceMethod': 1, 'sourceType': 1, 'sourcingType': 1, 'taxControl': 3, 'templateName': '寻源大厅引用', 'templateNo': 'XY2021090751', 'tenantId': '539223256875155458'}
+2022-06-25 18:19:09,541 - url https://srm-test.chinaboilers.com/api/srm/inquiry/hall/save
+2022-06-25 18:21:44,595 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 18:21:44,688 - 寻源大厅编码:XY20220625001625
+2022-06-25 18:21:44,704 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:21:44,814 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:21:44,892 - url https://srm-test.chinaboilers.com/api/share/primary/share/paymentTerm/fuzzyPaymentTerm
+2022-06-25 18:21:44,954 - 付款条件:{'id': '862426189280608258', 'termCode': 'test01', 'termName': 'ceshi 解决', 'defaultType': 1, 'status': 1, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2021-07-07 20:13:47', 'gmtModified': '2021-07-07 20:13:47', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457', 'list': [{'id': '862426190538899456', 'parentId': '862426189280608258', 'termDetailCode': 'detail003', 'termDetailName': '名称001', 'invoiceRequire': 0, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2021-07-07 20:13:47', 'gmtModified': '2021-07-07 20:13:47', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457', 'paymentRatio': 1.0, 'advancePayment': 1, 'startDateType': 2, 'months': 0, 'days': 0, 'accountDate': 0, 'expireSpec': ''}, {'id': '862426190538899457', 'parentId': '862426189280608258', 'termDetailCode': 'detail004', 'termDetailName': '名称001', 'invoiceRequire': 0, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2021-07-07 20:13:47', 'gmtModified': '2021-07-07 20:13:47', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457', 'paymentRatio': 0.0, 'advancePayment': 0, 'startDateType': 2, 'months': 0, 'days': 0, 'accountDate': 0, 'expireSpec': ''}]}
+2022-06-25 18:21:44,954 - url https://srm-test.chinaboilers.com/api/share/primary/share/paymentType/fuzzyPaymentType
+2022-06-25 18:21:45,032 - 结算方式:{'paymentTypeDoList': None, 'accountCombine': 0, 'combineRate': None, 'remark': '', 'id': '948179232592265216', 'payTypeCode': 'BL', 'payTypeName': '保理', 'defaultType': 0, 'status': 1, 'creatorId': '539223256862572544', 'lastModifierId': '539223256862572544', 'gmtCreate': '2022-03-01 11:25:45', 'gmtModified': '2022-03-01 11:25:45', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}
+2022-06-25 18:21:45,032 - url https://srm-test.chinaboilers.com/api/srm/sourcing/template/fuzzyPage
+2022-06-25 18:21:45,095 - 寻源模板:{'auctionRule': 1, 'autoDefer': 0, 'avlRestrict': 0, 'bargainOffline': 0, 'bargainRule': 1, 'businessId': '539223256875155456', 'creatorId': '852473181966573568', 'creatorName': '安雨敏', 'deptId': '0', 'enableState': 1, 'expertScoreType': 1, 'expertSource': 1, 'firstTrial': 1, 'freightControl': 3, 'gmtCreate': '2021-09-07 09:55:30', 'gmtModified': '2021-11-11 11:14:19', 'id': '50', 'lastModifierId': '852473181966573568', 'openRule': 1, 'qualificationType': 1, 'rankRule': 1, 'roundQuotationRule': 1, 'shopId': '539223256875155457', 'sourceMethod': 1, 'sourceType': 1, 'sourcingType': 1, 'taxControl': 3, 'templateName': '寻源大厅引用', 'templateNo': 'XY2021090751', 'tenantId': '539223256875155458'}
+2022-06-25 18:21:45,095 - url https://srm-test.chinaboilers.com/api/srm/inquiry/hall/save
+2022-06-25 18:29:21,073 - url https://srm-test.chinaboilers.com/api/srm/system/code/rule/getGenerateCode
+2022-06-25 18:29:21,214 - 寻源大厅编码:XY20220625001626
+2022-06-25 18:29:21,229 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:29:21,339 - url https://srm-test.chinaboilers.com/api/srm/user/queryCurrentScmPersonDeptWithRoleType
+2022-06-25 18:29:21,479 - url https://srm-test.chinaboilers.com/api/share/primary/share/currency/getCurrencyByPage
+2022-06-25 18:29:21,583 - 币种:{'messages': [{'code': '10001', 'kind': 'SYSTEM_ERROR', 'message': '未有该操作的访问权限,请联系管理员.'}], 'status': 3, 'success': False, 'traceId': ''}

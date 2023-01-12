@@ -1,0 +1,34 @@
+#srm登录
+SRM_BUYER_LOGIN: /srm/purchase/login
+SRM_BUYER_CHOOSE_SHOP: /srm/purchase/chooseShop
+SRM_SUPPLIER_LOGIN: /srm/purchase/login
+SRM_SUPPLIER_CHOOSE_SHOP: /srm/purchase/chooseShop
+QUERY_SCM_PERSON: /srm/purchase/queryScmPersonName
+QUERY_SHOP_BY_TOKEN: /shop/com/scmPerson/queryShopByToken
+QUERY_USER_PERMISSION_BY_DEPT: /srm/user/queryUserPermissionByDept
+
+# 获取编码
+GET_GENERATE_CODE: /srm/system/code/rule/getGenerateCode
+
+# 获取部门
+QUERY_DEPT_AND_PERSON: /srm/user/queryCurrentScmPersonDeptWithRoleType
+
+# 通讯录管理：获取人员角色等信息
+SHOP_COM_DEPTOATXL_QUERY_PERSONLIST: /shop/com/deptOATxl/queryPersonList
+
+# 角色：
+SHOP_COM_SYSROLE_QUERY_ROLE: /shop/com/sysRole/queryRole
+SHOP_COM_SYSROLE_QUERY_MULTIROLE_BYUSE: /shop/com/sysRole/queryMultiRoleByUse
+SHOP_COM_SYSROLE_UPDATE: /shop/com/sysRole/update
+
+# 系统配置
+SHOP_COM_SYSFACTORY_QUERYSYS: /shop/com/sysFactory/querySys
+SHOP_COM_SYSFACTORY_UPDATESYS: /shop/com/sysFactory/updateSys
+
+#扩展字段
+QUERY_EXTEND_PAGE_TABLE: /srm-pry/extend/pageTable
+EXTEND_UPDATE_STATUS: /srm-pry/extend/updateExtendTableStatus
+
+#公司业务规则
+QUERY_FACTORY_RULE: /share/primary/share/factoryRule/getAllByShopId
+UPDATE_FACTORY_RULE: /share/primary/share/factoryRule/updateFactoryRule

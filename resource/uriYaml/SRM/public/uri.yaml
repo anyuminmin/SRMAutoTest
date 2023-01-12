@@ -1,0 +1,47 @@
+#基础资料：供应商档案
+MES_SELECT_SUPPLIER_PROFILE: /srm/supplier/file/page
+
+#注册供应商
+MES_SAVE_SUPPLIER_CUSTOMIZEFORM: /srm/supplier/file/saveCustomizeForm
+MES_SAVE_SUPPLIER: /srm/supplier/file/save
+
+#供应商绩效报告接口
+MES_SELECT_PERFORMANCE_REPORT: /srm/supplier/performancereport/query
+MES_SAVE_PERFORMANCE_REPORT: /srm/supplier/performancereport/save
+MES_UPDATE_PERFORMANCE_REPORT: /srm/supplier/performancereport/update
+MES_DELETE_PERFORMANCE_REPORT: /srm/supplier/performancereport/delete
+MES_EXPORT_PERFORMANCE_REPORT: /srm/supplier/performancereport/export
+MES_IMPORT_PERFORMANCE_REPORT: /excel/ee/excel/importExcel
+
+#供应商认证
+MES_SAVE_SUPPLIER_POOL: /srm/supplierPool/saveSupplierPool
+MES_UPDATE_SUPPLIER_POOL: /srm/supplierPool/updateSupplierPool
+MES_SELECT_SUPPLIER_POOL: /srm/supplierPool/pageSupplierPool
+MES_DELETE_SUPPLIER_POOL: /srm/supplierPool/deletesSupplierPool
+
+#寻源模板
+SRM_SELECT_TEMPLATE: /srm/sourcing/template/page
+SRM_UPDATE_TEMPLATE: /srm/sourcing/template/update
+
+
+#报价大厅
+SRM_QUOTA_PARTICIPATE: /srm/supplierQuotation/participate
+
+#获取报价模板
+SRM_QUOTATION_FUZZY_QUERY: /srm/quotation/fuzzyQuery
+#获取报价模板明细
+SRM_QUOTATION_DETAIL: /srm/quotation/detail
+#获取物料主数据
+SRM_MATERIAL: /share/primary/share/material/fuzzyMaterial
+
+#获取币种
+SRM_SHARE_CURRENCY: /share/primary/share/currency/getCurrencyByPage
+
+#获取付款条款
+SRM_PAYMENT_TERM: /share/primary/share/paymentTerm/fuzzyPaymentTerm
+
+#获取付款方式
+SRM_PAYMENT_TYPE: /share/primary/share/paymentType/fuzzyPaymentType
+
+#获取部门
+SRM_SHOP_DEPT: /shop/com/scmPerson/queryMultiShopDeptInfoByPersonIds

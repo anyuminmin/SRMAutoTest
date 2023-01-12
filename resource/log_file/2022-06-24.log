@@ -1,0 +1,195 @@
+2022-06-24 16:59:24,697 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:02:08,082 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:06:38,890 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:07:54,446 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:09:34,912 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:11:37,359 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:11:58,187 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:11:58,301 - {'messages': [{'code': '10001', 'kind': 'SYSTEM_ERROR', 'message': '未有该操作的访问权限,请联系管理员.'}], 'status': 3, 'success': False, 'traceId': ''}
+2022-06-24 17:11:58,311 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:14:13,502 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:14:13,618 - {'messages': [{'code': '10001', 'kind': 'SYSTEM_ERROR', 'message': '未有该操作的访问权限,请联系管理员.'}], 'status': 3, 'success': False, 'traceId': ''}
+2022-06-24 17:14:13,625 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:15:48,179 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:15:48,429 - {'status': 0, 'messages': [], 'data': {'id': '989941718513123328', 'addressCode': 'autoTest-NBS', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-24 17:14:58', 'gmtModified': '2022-06-24 17:14:58', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-24 17:15:48,440 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:15:48,638 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:15:48,835 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 17:17:19,337 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:17:19,895 - {'status': 0, 'messages': [], 'data': {'id': '989942102036086784', 'addressCode': 'autoTest-WHN', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-24 17:16:29', 'gmtModified': '2022-06-24 17:16:29', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-24 17:17:19,902 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:17:20,128 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 17:17:20,306 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:17:49,325 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:17:49,680 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:17:50,259 - {'status': 0, 'messages': [], 'data': {'id': '989942228347551744', 'addressCode': 'autoTest-7xz', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-24 17:17:00', 'gmtModified': '2022-06-24 17:17:00', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-24 17:17:50,266 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:17:50,495 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 17:17:50,701 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:17:50,887 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:17:51,086 - {'messages': [{'code': '20011101', 'kind': 'ERROR', 'message': '地址编码234已存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-24 17:17:51,098 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:17:51,269 - {'messages': [{'code': '20011105', 'kind': 'ERROR', 'message': '地址编码必填'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-24 17:17:51,280 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:17:51,468 - {'messages': [{'code': '10003', 'kind': 'ERROR', 'message': '地址名称不能为空'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-24 17:17:51,479 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:17:51,673 - {'status': 0, 'messages': [], 'data': {'id': '989942235578531840', 'addressCode': 'autoTest-7xz', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府', 'remark': '', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-24 17:17:01', 'gmtModified': '2022-06-24 17:17:01', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-24 17:17:51,680 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:17:51,875 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 17:17:52,083 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:32:02,796 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:34:13,204 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:34:13,438 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:37:12,364 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:37:12,602 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:37:46,656 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:39:04,700 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:39:27,423 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:40:32,769 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:41:58,841 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:42:45,384 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:42:45,615 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:42:45,816 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:46,988 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:47,209 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:47,417 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:47,594 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:47,790 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:47,975 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:48,169 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:48,357 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:48,543 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:48,723 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:48,930 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:49,124 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:49,312 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:49,498 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:49,682 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:49,874 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:50,107 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:50,314 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:50,499 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:50,690 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:50,866 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:51,048 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:51,611 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:51,797 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:51,983 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:52,168 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:52,380 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:52,591 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:52,824 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:53,005 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:53,203 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:53,402 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:53,599 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:53,827 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:54,013 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:43:54,192 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 17:43:54,399 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:56:41,818 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:56:42,083 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:57:38,987 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 17:57:39,237 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:01,956 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:02,236 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:02,429 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 18:00:02,623 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:02,831 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:03,030 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:03,217 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:03,408 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:03,605 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:03,781 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:03,967 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:04,168 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:19,861 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:20,084 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:20,270 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:20,459 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:20,649 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:20,825 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:21,000 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:21,194 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:21,372 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:00:21,573 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:05,432 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:05,672 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:05,890 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:06,076 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:06,277 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:06,467 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:06,648 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:06,846 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:07,033 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:07,232 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:07,428 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:07,607 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:07,804 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-24 18:02:08,018 - {'status': 0, 'messages': [], 'data': {'id': '989952851026411520', 'addressCode': 'autoTest-QW5', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府update', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-24 17:59:12', 'gmtModified': '2022-06-24 18:01:18', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-24 18:02:08,030 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:08,223 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 18:02:08,423 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:08,635 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:08,823 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 18:02:09,033 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:09,257 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:09,460 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:09,652 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-24 18:02:09,853 - {'messages': [{'code': '20011102', 'kind': 'ERROR', 'message': '地址编码格式不正确'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-24 18:02:09,853 - 用例执行失败
+2022-06-24 18:02:09,861 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 18:02:10,050 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:10,669 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:10,888 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:11,104 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:11,296 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-24 18:02:11,470 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-24 18:02:11,470 - 用例执行失败
+2022-06-24 18:02:11,479 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 18:02:11,663 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:11,868 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:12,058 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:12,256 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:02:12,435 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-24 18:02:12,612 - {'messages': [{'code': '20020097', 'kind': 'ERROR', 'message': '记录不存在'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-24 18:02:12,612 - 用例执行失败
+2022-06-24 18:02:12,620 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 18:02:12,809 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:04:16,802 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:04:17,035 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:04:17,244 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:04:17,450 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:04:17,647 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:04:17,831 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:04:18,026 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-24 18:04:18,216 - {'messages': [{'code': '20011102', 'kind': 'ERROR', 'message': '地址编码格式不正确'}], 'status': 1, 'success': False, 'traceId': ''}
+2022-06-24 18:04:18,217 - 用例执行失败
+2022-06-24 18:04:18,224 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 18:04:18,408 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:11,916 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:12,119 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:12,314 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 18:05:12,502 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:12,688 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:12,926 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:13,115 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:13,304 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:13,482 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-24 18:05:13,674 - {'status': 0, 'messages': [], 'data': {'id': '989954150748946432', 'addressCode': 'autoTest-R6l', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府update', 'remark': '家', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-24 18:04:22', 'gmtModified': '2022-06-24 18:04:23', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-24 18:05:13,682 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:13,859 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 18:05:14,033 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:29,889 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:30,106 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:30,342 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/saveAddress
+2022-06-24 18:05:30,526 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:30,703 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:30,901 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:31,084 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:31,270 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:31,457 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/modifyAddress
+2022-06-24 18:05:31,641 - {'status': 0, 'messages': [], 'data': {'id': '989954226338693120', 'addressCode': 'autoTest-Cnc', 'addressType': 1, 'addressName': '浙江省杭州市余杭区佳源未来府', 'remark': '家update', 'creatorId': '852473181966573568', 'lastModifierId': '852473181966573568', 'gmtCreate': '2022-06-24 18:04:40', 'gmtModified': '2022-06-24 18:04:41', 'tenantId': '539223256875155458', 'businessId': '539223256875155456', 'shopId': '539223256875155457'}, 'success': True, 'traceId': ''}
+2022-06-24 18:05:31,650 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress
+2022-06-24 18:05:31,833 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/deleteAddress
+2022-06-24 18:05:32,017 - url https://srm-test.chinaboilers.com/api/share/primary/share/address/getAddress

@@ -1,0 +1,6 @@
+#寻源大厅
+INQUIRY_HALL_SAVE: {"billNo":"XY20220625001613","creatorName":"安雨敏","applyPersonId":"852473181966573568","applyPersonName":"安雨敏","companyId":"539223256875155457","companyName":"西子清洁能源装备制造股份有限公司","gmtCreate":"2022-06-25T01:15:45.000Z","round":1,"inquiryState":1,"currencyId":"826838286244806656","currencyCode":"CNY","currencyName":"人民币","paymentTermId":"862426189280608258","paymentTermName":"ceshi 解决","paymentTypeId":"913449587804504064","paymentTypeName":"组合结算","paymentTypeCode":"ZH","applyDeptId":"796471928124227584","applyDeptName":"测试部门","inquiryTopic":"autoTest0232","templateId":"50","sourcingType":1,"attribute2":"1010101","attribute1":"寻大厅头文本","attribute3":"2021-11-07","attribute4":"2021-07-11 10:56:29","attribute5":"1","attribute6":"test","attachments":[],"confirm":true}
+INQUIRY_HALL_DELETE: {"list":list}
+INQUIRY_HALL_UPDATE: /srm/inquiry/hall/update
+INQUIRY_HALL_PUBLISH: {"list":["469"]}
+INQUIRY_HALL_QUOTE: {"id":"469"}

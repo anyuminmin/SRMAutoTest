@@ -1,0 +1,6 @@
+#寻源大厅
+INQUIRY_HALL_SAVE: /srm/inquiry/hall/save
+INQUIRY_HALL_DELETE: /srm/inquiry/hall/deletes
+INQUIRY_HALL_UPDATE: /srm/inquiry/hall/update
+INQUIRY_HALL_PUBLISH: /srm/inquiry/hall/publish
+INQUIRY_HALL_QUOTE: /srm/inquiry/hall/quote

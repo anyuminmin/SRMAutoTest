@@ -1,0 +1,9 @@
+#登录相关参数
+SUPPLIER_LOGIN: {"accountNo":"","password":"","captchaCode":"","macAddress":"","routeMac":"","channelFlag":7,"loginType":1,"externalType":10}
+SUPPLIER_CHOOSE_SHOP: {"securityToken":"","relationName":"","relationId":"","shopId":""}
+
+#供应商绩效报告
+SUPPLIER_SELECT_PERFORMANCE_REPORT: {"pageSize":20,"pageNum":1,"examDate":""}
+
+#供应商认证：
+#注册

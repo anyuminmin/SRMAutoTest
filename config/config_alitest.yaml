@@ -1,0 +1,43 @@
+#服务器地址
+url:
+  srm_buyer_url: https://srm-test.chinaboilers.com
+  srm_supplier_url: https://srm-test.chinaboilers.com
+
+shopId: "539223256875155457"
+shopName: "'采购方西子清洁能源装备制造有限公司'"
+shopId2: "539223256875155457"
+shopName2: "'供应商西子清洁能源装备制造有限公司'"
+shopId3: "543846675398803457"
+shopName3: "杭州锅炉集团股份有限公司海宁分公司"
+
+user:  # srm采购方
+  loginName: "13136166390"
+  password: "test123456"
+
+user2: # srm供应商
+  loginName: "13136166390"
+  password: "test123456"
+
+#请求头信息
+JsonHeader:
+  content-type: application/json;charset=UTF-8
+  cookie: x-ph-token=09fdd834b73d447b839114a5ca4581d7
+  referer: https://srm-test.chinaboilers.com/srm-inclution/home/SupplierFile
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+  x-ph-token: 09fdd834b73d447b839114a5ca4581d7
+
+#登录供应商需要选择该电话
+supplierFile:
+  phone1: 15034132207
+  supplierName: 202104191007
+
+publicParams:
+  billNo: RTX2021
+
+# mysgl
+mysql:
+  host: "10.10.201.231"
+  port: 3306
+  user: "mes_dml"
+  passwd: "wWdy7Hhi9YUxHooy"
+  db: scm_master

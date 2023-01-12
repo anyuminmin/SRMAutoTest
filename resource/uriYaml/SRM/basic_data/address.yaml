@@ -1,0 +1,8 @@
+#基础资料：地址
+SELECT_ADDRESS: /share/primary/share/address/getAddress
+COPY_ADDRESS: /share/primary/share/address/copyAddress
+SAVE_ADDRESS: /share/primary/share/address/saveAddress
+DELETE_ADDRESS: /share/primary/share/address/deleteAddress
+UPDATE_ADDRESS: /share/primary/share/address/modifyAddress
+EXPORT_ADDRESS: /share/primary/share/address/exportAddress
+IMPORT_ADDRESS: /excel/ee/excel/importExcel

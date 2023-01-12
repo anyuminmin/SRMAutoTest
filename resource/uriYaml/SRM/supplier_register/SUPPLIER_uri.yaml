@@ -1,0 +1,6 @@
+#supplier登录
+SUPPLIER_LOGIN: /srm/supplier/login
+SUPPLIER_CHOOSE_SHOP: /srm/supplier/chooseShop
+
+#供应商绩效报告
+SUPPLIER_SELECT_PERFORMANCE_REPORT: /srm/supplier/performancereport/query

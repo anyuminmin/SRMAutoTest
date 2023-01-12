@@ -1,0 +1,8 @@
+#基础资料：地址
+SELECT_ADDRESS: {"pageSize":20,"pageNum":1,"fuzzyAddressCode":fuzzyAddressCode,"fuzzyAddressName":fuzzyAddressName}
+COPY_ADDRESS: {"id":"834735995828076544"}
+SAVE_ADDRESS: {"addressCode": addressCode,"addressType":addressType,"addressName":addressName,"remark":remark}
+DELETE_ADDRESS: {"list":[id_]}
+UPDATE_ADDRESS: {"addressCode":addressCode,"addressType":1,"addressName":addressName,"remark":remark,"id":id_}
+EXPORT_ADDRESS: {"list":["834782291003736064","834782290924044290"]}
+IMPORT_ADDRESS: {'Content-Disposition': 'form-data; name="file;taskType"; filename="地址列表(2021-04-25 11_15_31).xlsx"','Content-Type':'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}
