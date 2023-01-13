@@ -34,7 +34,7 @@ class publicBusiness:
 		return rsp.json()['data']
 
 	def shop_query_person_list(self):
-		"""通讯录管理：获取人员角色等信息; roleCodeRemark:角色编码;;roleRemark:角色名称"""
+		"""通讯录管理：获取人员角色、business等信息; roleCodeRemark:角色编码;;roleRemark:角色名称"""
 		url = read_config.get_url("SRM/public/base.yaml", "SHOP_COM_DEPTOATXL_QUERY_PERSONLIST")
 		param = read_config.get_param("SRM/public/base.yaml", "SHOP_COM_DEPTOATXL_QUERY_PERSONLIST")
 		param['personName'] = read_config.user["loginName"]
@@ -189,12 +189,21 @@ class publicBusiness:
 					self.update_extend_status(url, param)
 					log.info("=================" + "成功启用扩展字段：" + str(paramList[j]) + "=================")
 
+	def get_material_massages(self, paramList):
+		"""获取物料信息"""
+		url = read_config.get_url("SRM/public/base.yaml", "GET_MATERIAL_MESSAGES")
+		param = read_config.get_param("SRM/public/base.yaml", "GET_MATERIAL_MESSAGES")
+		rsp = http.post_json(
+			url=url,
+			data=param
+		)
+		return rsp.json()
+
 
 if __name__ == '__main__':
 	p = publicBusiness()
 	# paramList = ['采购申请单']
-	paramList = ['purchase_request_order', 'purchase_request_order_detail']
-	# p.shop_com_sysFactory_updateSys_to_close(paramList)
-	# p.shop_com_sysFactory_updateSys_to_open(paramList)
-	# p.shop_com_sysRole_update(paramList)
-	p.update_extend_status_to_open(paramList)
+	# paramList = ['purchase_request_order', 'purchase_request_order_detail']
+	# p.update_extend_status_to_open(paramList)
+	paramList = {"fuzzyName":"10.101.000"}
+	print(p.get_material_massages(paramList))

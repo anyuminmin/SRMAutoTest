@@ -10,10 +10,10 @@ QUERY_USER_PERMISSION_BY_DEPT: /srm/user/queryUserPermissionByDept
 # 获取编码
 GET_GENERATE_CODE: /srm/system/code/rule/getGenerateCode
 
-# 获取部门
+# 获取部门 & 人员信息
 QUERY_DEPT_AND_PERSON: /srm/user/queryCurrentScmPersonDeptWithRoleType
 
-# 通讯录管理：获取人员角色等信息
+# 通讯录管理：获取人员角色\business等信息
 SHOP_COM_DEPTOATXL_QUERY_PERSONLIST: /shop/com/deptOATxl/queryPersonList
 
 # 角色：
@@ -32,3 +32,6 @@ EXTEND_UPDATE_STATUS: /srm-pry/extend/updateExtendTableStatus
 #公司业务规则
 QUERY_FACTORY_RULE: /share/primary/share/factoryRule/getAllByShopId
 UPDATE_FACTORY_RULE: /share/primary/share/factoryRule/updateFactoryRule
+
+#物料
+GET_MATERIAL_MESSAGES: /share/primary/share/material/fuzzyMaterialData

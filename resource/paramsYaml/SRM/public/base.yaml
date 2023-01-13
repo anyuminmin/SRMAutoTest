@@ -39,3 +39,6 @@ EXTEND_UPDATE_STATUS: {"id":"1","status":0}
 #公司业务规则
 QUERY_FACTORY_RULE: {}
 UPDATE_FACTORY_RULE: data
+
+#物料
+GET_MATERIAL_MESSAGES: {"pageNum":1,"pageSize":20,"fuzzyName":"10.101","targetShopId":"566673673418452993"}

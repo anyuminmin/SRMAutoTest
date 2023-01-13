@@ -91,7 +91,31 @@ class InquiryHallBusiness:
 		)
 		return rsp
 
+	def update_inquiry_hall(self):
+		"""修改寻源单，明细等"""
+		url = read_config.get_url("SRM/supplier_select/inquiry_hall.yaml", "INQUIRY_HALL_UPDATE")
+		param = read_config.get_param("SRM/supplier_select/inquiry_hall.yaml", "INQUIRY_HALL_UPDATE")
+		insertParam = self.create_new_inquiry_hall({}).json()['data']
+		param['billNo'] = insertParam['billNo']
+		param['inquiryTopic'] = insertParam['inquiryTopic']
+		param['gmtCreate'] = insertParam['gmtCreate']
+		param['applyDeptId'] = insertParam['applyDeptId']
+		param['applyPersonId'] = insertParam['applyPersonId']
+		param['companyId'] = shopId
+		param['currencyId'] = insertParam['currencyId']
+		param['paymentTermId'] = insertParam['paymentTermId']
+		param['paymentTypeId'] = insertParam['paymentTypeId']
+		param['templateId'] = insertParam['templateId']
+		param['budgetAmount'] = 5000
+		param['businessId'] = publicBusiness.shop_query_person_list()['groupConfig'][0]['dept']['businessId']
+		param['id'] = insertParam['id']
+		param['inquiryHallDetails']['materialId'] = insertParam['id']
+		return param
+
+
+
 	def delete_inquiry_hall(self, paramDict):
+		"""删除寻源单"""
 		url = read_config.get_url("SRM/supplier_select/inquiry_hall.yaml", "INQUIRY_HALL_DELETE")
 		param = read_config.get_param("SRM/supplier_select/inquiry_hall.yaml", "INQUIRY_HALL_DELETE")
 		for i in paramDict:
@@ -101,3 +125,8 @@ class InquiryHallBusiness:
 			data=param
 		)
 		return rsp
+
+
+if __name__ == '__main__':
+	inquiryHallBusiness = InquiryHallBusiness()
+	# print(inquiryHallBusiness.update_inquiry_hall())
