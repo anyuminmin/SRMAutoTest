@@ -42,3 +42,10 @@ UPDATE_FACTORY_RULE: data
 
 #物料
 GET_MATERIAL_MESSAGES: {"pageNum":1,"pageSize":20,"fuzzyName":"10.101","targetShopId":"566673673418452993"}
+
+#税码
+GET_TAXES: {"fuzzyName":""}
+
+#获取供应商
+GET_SUPPLIER_LIST: {"pageSize":20,"fuzzyName":"auto","type":1,"supplierStatus":[1,2,3,4,5,6]}
+

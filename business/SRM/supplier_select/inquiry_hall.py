@@ -17,13 +17,16 @@ read_config = ReadConfig()
 shopId = read_config.shopId
 http = HttpService()
 log = Logger("InquiryHallBusiness").logger
+materials = publicBusiness.get_material_massages()
+taxes = publicBusiness.get_taxes()
+supplierList = publicBusiness.get_supplier_list()
 
 
 def get_generate_code_for_inquiry_hall():
 	"""获取寻源大厅编码"""
 	paramDict = {"ruleCode": "INQUIRY_HALL_CODE_RULE"}
 	rsp = publicBusiness.get_generate_code(paramDict)
-	log.info("寻源大厅编码:" + rsp)
+	log.info("==========寻源大厅编码:" + rsp + "==========")
 	return rsp
 
 
@@ -31,7 +34,7 @@ def get_sourcing_template():
 	"""获取寻源模板"""
 	paramDict = {"queryShopId": shopId}
 	rsp = sourcing_template.get_sourcing_template(paramDict)
-	log.info("寻源模板:" + str(rsp['data']['list'][0]))
+	log.info("==========寻源模板:" + str(rsp['data']['list'][0]) + "==========")
 	return rsp['data']['list'][0]
 
 
@@ -39,7 +42,7 @@ def get_currency():
 	"""获取币种"""
 	paramDict = {"fuzzyName": ""}
 	rsp = currency.get_currency(paramDict)
-	log.info("币种:" + str(rsp))
+	log.info("==========币种:" + str(rsp['data']['list'][0]) + "==========")
 	return rsp['data']['list'][0]
 
 
@@ -47,7 +50,7 @@ def get_paymentType():
 	"""获取结算方式"""
 	paramDict = {"fuzzyName": ""}
 	rsp = paymentType.get_paymentType(paramDict)
-	log.info("结算方式:" + str(rsp['data']['list'][0]))
+	log.info("==========结算方式:" + str(rsp['data']['list'][0]) + "==========")
 	return rsp['data']['list'][0]
 
 
@@ -55,7 +58,7 @@ def get_paymentTerm():
 	"""获取付款条件"""
 	paramDict = {"fuzzyName": ""}
 	rsp = paymentTerm.get_paymentTerm(paramDict)
-	log.info("付款条件:" + str(rsp['data']['list'][0]))
+	log.info("==========付款条件:" + str(rsp['data']['list'][0]) + "==========")
 	return rsp['data']['list'][0]
 
 
@@ -91,7 +94,7 @@ class InquiryHallBusiness:
 		)
 		return rsp
 
-	def update_inquiry_hall(self):
+	def update_inquiry_hall(self, paramDict):
 		"""修改寻源单，明细等"""
 		url = read_config.get_url("SRM/supplier_select/inquiry_hall.yaml", "INQUIRY_HALL_UPDATE")
 		param = read_config.get_param("SRM/supplier_select/inquiry_hall.yaml", "INQUIRY_HALL_UPDATE")
@@ -109,10 +112,29 @@ class InquiryHallBusiness:
 		param['budgetAmount'] = 5000
 		param['businessId'] = publicBusiness.shop_query_person_list()['groupConfig'][0]['dept']['businessId']
 		param['id'] = insertParam['id']
-		param['inquiryHallDetails']['materialId'] = insertParam['id']
-		return param
-
-
+		param['inquiryHallDetails'][0]['materialId'] = materials[0]['id']
+		param['inquiryHallDetails'][0]['materialTypeId'] = materials[0]['materialTypeId']
+		param['inquiryHallDetails'][0]['materialCode'] = materials[0]['materialCode']
+		param['inquiryHallDetails'][0]['materialTypeCode'] = materials[0]['materialTypeCode']
+		param['inquiryHallDetails'][0]['taxId'] = taxes['id']
+		param['inquiryHallDetails'][0]['taxRate'] = taxes['taxRate']
+		param['inquirySuppliers'][0]['supplierId'] = supplierList['id']
+		param['inquirySuppliers'][0]['supplierCode'] = supplierList['supplierCode']
+		param['inquirySuppliers'][0]['telephone'] = supplierList['telephone']
+		param['inquirySuppliers'][0]['mail'] = supplierList['mail']
+		param['inquirySuppliers'][0]['linkman'] = supplierList['linkman']
+		param['inquiryHallDetails'][0]['inquirySupplierAllocates'][0]['supplierId'] = supplierList['id']
+		param['inquiryHallDetails'][0]['inquirySupplierAllocates'][0]['supplierCode'] = supplierList['supplierCode']
+		param['inquiryHallDetails'][0]['inquirySupplierAllocates'][0]['telephone'] = supplierList['telephone']
+		param['inquiryHallDetails'][0]['inquirySupplierAllocates'][0]['mail'] = supplierList['mail']
+		param['inquiryHallDetails'][0]['inquirySupplierAllocates'][0]['linkman'] = supplierList['linkman']
+		for i in paramDict:
+			param[i] = paramDict.get(i)
+		rsp = http.post_json(
+			url=url,
+			data=param
+		)
+		return rsp.json(), insertParam['id'], param
 
 	def delete_inquiry_hall(self, paramDict):
 		"""删除寻源单"""
@@ -127,6 +149,6 @@ class InquiryHallBusiness:
 		return rsp
 
 
-if __name__ == '__main__':
-	inquiryHallBusiness = InquiryHallBusiness()
-	# print(inquiryHallBusiness.update_inquiry_hall())
+# if __name__ == '__main__':
+	# inquiryHallBusiness = InquiryHallBusiness()
+	# print(inquiryHallBusiness.update_inquiry_hall({}))

@@ -140,7 +140,6 @@ def srm_buyer_query_scm_person():
 		url=read_config.get_url("SRM/public/base.yaml", "QUERY_SCM_PERSON"),
 		data=data
 	)
-	log.info("srm_buyer_query_scm_person" + str(rsp.json()))
 	rspDict = {}
 	rspDict['deptId'] = rsp.json()['data']['list'][0]['deptId']
 	rspDict['deptName'] = rsp.json()['data']['list'][0]['deptName']
@@ -168,7 +167,6 @@ def srm_buyer_query_user_permission_by_dept():
 		url=read_config.get_url("SRM/public/base.yaml", "QUERY_USER_PERMISSION_BY_DEPT"),
 		data=data
 	)
-	log.info("srm_buyer_query_user_permission_by_dept" + str(rsp.json()))
 	return rspDict
 
 

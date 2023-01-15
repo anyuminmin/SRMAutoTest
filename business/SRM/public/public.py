@@ -189,21 +189,58 @@ class publicBusiness:
 					self.update_extend_status(url, param)
 					log.info("=================" + "成功启用扩展字段：" + str(paramList[j]) + "=================")
 
-	def get_material_massages(self, paramList):
+	def get_material_massages(self, paramDict={"fuzzyName": "10.101.000"}):
 		"""获取物料信息"""
 		url = read_config.get_url("SRM/public/base.yaml", "GET_MATERIAL_MESSAGES")
 		param = read_config.get_param("SRM/public/base.yaml", "GET_MATERIAL_MESSAGES")
+		for i in paramDict:
+			param[i] = paramDict.get(i)
 		rsp = http.post_json(
 			url=url,
 			data=param
 		)
-		return rsp.json()
+		if len(rsp.json()['data']['list']) > 0:
+			log.info("============物料信息：" + str(rsp.json()['data']['list'][0]) + "============")
+			return rsp.json()['data']['list']
+		else:
+			log.info("======无此物料信息，请检查，或请求失败，请看异常" + str(rsp.json()) + "======")
+
+	def get_taxes(self):
+		"""获取税码信息，先查询是否有0.13的税码，没有则获取列表第一条数据"""
+		url = read_config.get_url("SRM/public/base.yaml", "GET_TAXES")
+		param = read_config.get_param("SRM/public/base.yaml", "GET_TAXES")
+		isHave = 0
+		rsp = http.post_json(
+			url=url,
+			data=param
+		)
+		for i in range(len(rsp.json()['data']['list'])):
+			if rsp.json()['data']['list'][i]['taxRate'] == 0.13:
+				self.isHave = 1
+				log.info("税码信息：" + str(rsp.json()['data']['list'][i]))
+				return rsp.json()['data']['list'][i]
+				break
+		if isHave == 0:
+			log.info("============税码信息：" + str(rsp.json()['data']['list'][0]) + "============")
+			return rsp.json()['data']['list'][0]
+
+	def get_supplier_list(self, paramDict={"fuzzyName": "auto"}):
+		"""获取供应商，先根据期望供应商搜素，没有则获取第一家供应商"""
+		url = read_config.get_url("SRM/public/base.yaml", "GET_SUPPLIER_LIST")
+		param = read_config.get_param("SRM/public/base.yaml", "GET_SUPPLIER_LIST")
+		for i in paramDict:
+			param[i] = paramDict.get(i)
+		rsp = http.post_json(
+			url=url,
+			data=param
+		)
+		if len(rsp.json()['data']['list']) > 0:
+			log.info("============供应商信息：" + str(rsp.json()['data']['list'][0]) + "============")
+			return rsp.json()['data']['list'][0]
+		else:
+			log.info("==========无此类型的供应商，请检查==========")
 
 
 if __name__ == '__main__':
 	p = publicBusiness()
-	# paramList = ['采购申请单']
-	# paramList = ['purchase_request_order', 'purchase_request_order_detail']
-	# p.update_extend_status_to_open(paramList)
-	paramList = {"fuzzyName":"10.101.000"}
-	print(p.get_material_massages(paramList))
+	print(p.get_material_massages()[0]['id'])

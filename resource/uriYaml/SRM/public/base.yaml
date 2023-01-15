@@ -35,3 +35,9 @@ UPDATE_FACTORY_RULE: /share/primary/share/factoryRule/updateFactoryRule
 
 #物料
 GET_MATERIAL_MESSAGES: /share/primary/share/material/fuzzyMaterialData
+
+#税码
+GET_TAXES: /share/primary/share/taxes/fuzzyTaxes
+
+#获取供应商
+GET_SUPPLIER_LIST: /srm/supplier/queryPageSupplier
