@@ -9,7 +9,6 @@ class ReadConfig(object):
 	base_path = os.path.abspath(os.path.dirname(os.path.dirname(__file__))) + os.sep
 	config_path = base_path + "config" + os.sep
 
-
 	def __init__(self, *args):
 		if len(args) == 0:
 			self.env = self.__get_envyaml()["env"]
@@ -134,7 +133,7 @@ class ReadConfig(object):
 if __name__ == '__main__':
 	read = ReadConfig()
 	# print(read.get_url("SRM/public/uri.yaml", "SRM_LOGIN"))
-	print(read.get_param("SRM/public/base.yaml", "headers"))
+	print(read.get_param("SRM/public/base.yaml", "HEADERS"))
 	# print(read.srm_uri_path)
 
 

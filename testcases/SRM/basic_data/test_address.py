@@ -2,14 +2,14 @@
 # -*- coding:utf-8 -*-
 # author:yumin An
 
-from business.SRM.basic_data.address import Address
+from services.SRM.basic_data.addressService import AddressService
 import pytest
-from services.assertService import AssertService
+from services.common.assertService import AssertService
 from utils.random_util import RandomUtil
 from utils.logger import Logger
 log = Logger("TestAddressCases").logger
 
-address = Address()
+address = AddressService()
 assertService = AssertService()
 randomUtil = RandomUtil()
 addressCode = randomUtil.random_string(12, startswith="autoTest-")
